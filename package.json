@@ -1,7 +1,9 @@
 {
   "name": "muscle-impact",
   "version": "1.0.0",
+  "homepage": ".",
   "scripts": {
+    "npm": "pnpm",
     "start": "vite",
     "dev": "vite",
     "dev-host": "vite --host",
