@@ -15,3 +15,4 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MUSCLE_IMPACT_23AC5 }}'
           projectId: muscle-impact-23ac5
+          args: deploy --only hosting:main

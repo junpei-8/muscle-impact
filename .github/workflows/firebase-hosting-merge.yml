@@ -18,3 +18,4 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MUSCLE_IMPACT_23AC5 }}'
           channelId: live
           projectId: muscle-impact-23ac5
+          args: deploy --only hosting:main

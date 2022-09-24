@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "muscle-impact-23ac5"
-  }
+  },
+  "targets": {
+    "muscle-impact-23ac5": {
+      "hosting": {
+        "main": [
+          "super-muscle-impact"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
